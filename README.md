@@ -5,7 +5,7 @@ These are SELECT,INSERT,UPDATE,DELETE libraries in PHP
 tip : there is NO PDO connection. these files has been writen in OOP.
 
 
-tip : the function are all public cause of accessibility problems. Becides the connection function is mutual function between all functions.
+tip : the functions are all public cause of accessibility problems. Becides the connection function is mutual function between all functions.
 
 
 
