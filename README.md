@@ -2,7 +2,7 @@
 These are SELECT,INSERT,UPDATE,DELETE libraries in PHP
 
 
-tip : there is PDO  connection. these files has been writen in OOP.
+tip : there is NO PDO connection. these files has been writen in OOP.
 tip : the function are all public cause of accebility problems. Becides the connection function is mutual function between all functions.
 tip : the "" are symbols of your parameters
 
