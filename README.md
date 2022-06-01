@@ -32,7 +32,7 @@ there you go, your connnection has been established.
 ### SELECT
 we have to seprate functions. one of them is selecting one value and the other one is selecting all values
 
-#### selectAllTuples
+#### selectOneTuples
 
 fill the parameters in this way : username,password,dbname,$option,tablename,condition,col
 ```php
