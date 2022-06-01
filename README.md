@@ -11,11 +11,18 @@ tip : the functions are all public cause of accessibility problems. Becides the 
 
 tip : the "" are symbols of your parameters
 
-You have to downlaod the library.php file to include it in your main php file.
-first you have to include it in your file like this :
+You have to download the library.php file to include it in your main php file.
+Then you have to include it in your file like this :
 ```php
 include "library.php";
 ```
+
+OR
+
+```php
+include_once "library.php"
+```
+
 and then you must create an OBJ as OOP fundamentals :
 ```php
 $obj = new library();
@@ -24,7 +31,7 @@ $obj = new library();
 these are the samples
 
 ### CONNECTION
-Altought php has a nice simple connection functions and the basics is ```php mysqli ``` function, thes function will connect to DATABASE and if it could not it will die and raise an error. with obj that you have created recently you can set access to the connection function in this way by creating a new variable.
+Altought php has a nice simple connection functions and the basics is ``` mysqli ``` function, this function will connect to a DATABASE and if it could not, it will die and raise an error. With obj that you have created recently you can set access to the connection function in this way by creating a new variable.
 You have to fill the function in that way you want :username, password,dbname
 
 
